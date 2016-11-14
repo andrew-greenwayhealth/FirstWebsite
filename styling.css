@@ -1,0 +1,132 @@
+<style>
+    html {
+        /*font-family: sans-serif;
+        font-family: Arial;*/
+    }
+
+    body {
+        background-color: #C0C0C0;
+        margin-left: 2em;
+        font-family: Arial;
+    }
+
+    h1 {
+        margin-top: .2em;
+        margin-bottom: 0em;
+        text-align: center;
+        color: black;
+        font-size: 3.5em;
+    }
+    #pic1{
+        position: relative;
+        float: right;
+        
+    }
+    #pic1 figcaption{
+        font-size: .85em;
+        
+    }
+    #p1 {
+        border-width: 1px;
+        border-style: hidden;
+        border-color: gray;
+        border-radius: 4px;
+        font-size: 1.3em;
+        width: 40%;
+        height: 3em;
+        margin-bottom: 2em;
+        clear:both;
+        background-color: hidden;
+    }
+
+    #form1 label {
+        font-size: 1.3em;
+    }
+
+    #form1 {
+        
+        margin-top: 1.2em;
+        height: 20em;
+        width: 40%;
+        background-color: white;
+        padding: 1.2em;
+        position: relative;
+        float: left;
+        margin-bottom: 2em;
+    }
+        
+    footer {
+        background-color: darkgray;
+        border: none;
+        position: relative;
+        clear:both;
+        font-size: 1.2em;
+        width: 18%;
+    }
+    /*
+    .image{
+        width: 8em;
+        height: 5em;
+        padding: .5em;
+    }
+        */
+    .image:hover{
+
+    }
+    .button, .image {
+        padding: .31em 1.24em;
+        color: black;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        font-size: 1.5em;
+        text-align: center;
+        display: inline-block;
+        margin: .5em;
+        margin-top: .6em;
+        margin-left: 0em;
+        margin-bottom: .1em;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #nameTextBox{
+        
+        margin-left: .4em;
+    }
+    #selectAnimalText{
+        margin-top: 0;
+    }
+    .button:hover {
+            border-width: .125em;
+        }
+    figure{
+        position: relative;
+    }
+    input[type=text] {
+    font-size: 1.1em;
+    padding: .3em;
+    }
+    input[type = submit] {
+        padding: .4em 1.6em;
+        margin-top: .4em;
+    }
+    #r {
+        background-color: lightcoral;
+    }
+
+    #b {
+        background-color: lightblue;
+    }
+
+    #g {
+        background-color: lightgreen;
+    }
+
+    img {
+        margin-left: 0em;
+        margin-bottom: 0em;
+        width: 16em;
+        height: auto;
+        position: relative;
+    }
+</style>

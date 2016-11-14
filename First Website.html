@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        First Website
+    </title>
+    <link rel="stylesheet" href="styling.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <h1> Website    </h1>
+
+    <!--picture of games with caption-->
+    <figure id="pic1">
+        <img id="gamePieces" src="Game Pieces.jpg" />
+        <figcaption>Game pieces from different popular games</figcaption>
+    </figure>
+
+    <div id="form1">
+        <form>
+            <!--the user enters his name-->
+            <label for="nameTextBox"> 1) Please enter your name: </label>
+            <input id="nameTextBox" type="text" name="first name" /><br /><br />
+            <!--different colors to choose from-->
+            <label for="button">2) Please select your favorite color:</label><br />
+            <input class="button" id="r" type="button" value ="Red" name="red">
+            <input class="button" id="b" type="button" value ="Blue" name="blue">
+            <input class="button" id="g" type="button" value ="Green" name="green"><br /><br />
+            <!--pictures of animals-->
+            <label id="selectAnimalText" for="image">3) Please select your favorite animal: </label><br />
+            <input class="image" id="horse" type="button" value = "horse" alt="horse" name="horse" />
+            <input class="image" id="bull" type="button" value = "bull" alt="bull" name="bull" />
+            <input class="image" id="chicken" type="button" value = "chicken" alt="chicken" name="chicken" />
+            <input class="image" id="goat" type="button" value ="goat" alt="goat" name="goat" /><br /><br />
+
+            <input id="submit" type="submit" />
+        </form>
+    </div>
+    <p id="p1">
+
+    </p>
+
+    <p><br /></p>
+
+    <footer id="date"></footer>
+    <!--
+        <script>
+            //picture pulsates before sliding to the right
+            $("#pic1").fadeTo(100, .5).fadeTo(100, 1).fadeTo(100, .5).fadeTo(100, 1);
+
+        </script>
+
+        <script>
+            //auto slide image and hide upon click
+            $("document").ready(function () {
+                $("#pic1").animate({ left: "500" }, 2000);
+            });
+            $("#gamePieces").click(function () {
+                $("#pic1").hide(800, "swing")
+            });
+
+        </script>
+    -->
+    
+    <script type="text/javascript" src="formSubmission.js"</script>
+    <script>
+        //allows the user to select an animal
+
+    </script>
+    <script>
+        //displays today's date as footer
+        var date = new Date();
+        date = date.getMonth() + 1 + "/" + date.getDate() + "/" + date.getFullYear();
+
+        document.getElementById("date").innerHTML = "Today's date is: " + date;
+
+    </script>
+
+
+</body>
+
+</html>
